@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Laporan</string>
+    <string name="source_prompt">Pilih Data</string>
+
+    <string-array name="source_arrays">
+        <item>Semua</item>
+        <item>Foodcourt</item>
+        <item>IceSkating</item>
+        <item>LaNina</item>
+        <item>Parkir</item>
+        <item>Penyewaan</item>
+        <item>Toko</item>
+        <item>Waterpark</item>
+        <item>WPCafe</item>
+    </string-array>
+</resources>

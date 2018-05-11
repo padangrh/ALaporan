@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.christinehakimideapark.chip.laporan.LayarAwal">
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/txtPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="280dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:password="true"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="8dp"
+        android:text="Login"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPassword"
+        app:layout_constraintVertical_bias="0.172" />
+
+    <Button
+        android:id="@+id/btn_Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Cancel"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toEndOf="@+id/btn_Login"
+        app:layout_constraintTop_toBottomOf="@+id/txtPassword"
+        app:layout_constraintVertical_bias="0.172" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="241dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="serif-monospace"
+        android:text="Laporan CHIP"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl_Result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <TextView
+        android:id="@+id/lbl_Result"
+        android:layout_width="213dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="8dp"
+        android:text="Result"
+        android:textAlignment="center"
+        android:textColor="#ffff299f"
+        app:layout_constraintBottom_toTopOf="@+id/txtUsername"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
